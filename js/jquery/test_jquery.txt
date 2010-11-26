@@ -1,0 +1,25 @@
+How to use?
+===========
+
+This should be setup before rendering a page. See `fanstatic`_ for more
+information::
+
+  >>> from fanstatic import init_current_needed_inclusions
+  >>> needed = init_current_needed_inclusions(base_url='http://localhost')
+
+You can import jQuery from ``js.jquery`` and ``.need`` it where you want
+these resources to be included on a page::
+
+  >>> from js.jquery import jquery
+  >>> jquery.need()
+
+Render the inclusion::
+
+  >>> print needed.render()
+  <script type="text/javascript" src="http://localhost/fanstatic/jquery_lib/jquery-1.4.3.js"></script>
+
+  >>> needed._mode = 'minified'
+  >>> print needed.render()
+  <script type="text/javascript" src="http://localhost/fanstatic/jquery_lib/jquery-1.4.3.min.js"></script>
+
+.. _`fanstatic`: http://fanstatic.org

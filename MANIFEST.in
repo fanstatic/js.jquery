@@ -1,0 +1,2 @@
+recursive-include js/jquery/resources *.js
+recursive-include js/jquery/ *.txt

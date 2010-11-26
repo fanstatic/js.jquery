@@ -1,0 +1,11 @@
+CHANGES
+*******
+
+1.4.3 (unreleased)
+==================
+
+- Rewrote `hurry.jquery`_ to use `fanstatic`_ instead of `hurry.resource`_.
+
+.. _`hurry.jquery`: http://pypi.python.org/pypi/hurry.jquery
+.. _`hurry.resource`: http://pypi.python.org/pypi/hurry.resource
+.. _`fanstatic`: http://fanstatic.org
