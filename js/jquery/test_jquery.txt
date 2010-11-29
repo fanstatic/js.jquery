@@ -16,10 +16,10 @@ these resources to be included on a page::
 Render the inclusion::
 
   >>> print needed.render()
-  <script type="text/javascript" src="http://localhost/fanstatic/jquery_lib/jquery-1.4.3.js"></script>
+  <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery-1.4.3.js"></script>
 
   >>> needed._mode = 'minified'
   >>> print needed.render()
-  <script type="text/javascript" src="http://localhost/fanstatic/jquery_lib/jquery-1.4.3.min.js"></script>
+  <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery-1.4.3.min.js"></script>
 
 .. _`fanstatic`: http://fanstatic.org

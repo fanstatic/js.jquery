@@ -32,13 +32,14 @@ setup(
     zip_safe=False,
     install_requires=[
         'fanstatic',
+        'setuptools',
         ],
     extras_require = dict(
         test=['pytest >= 2.0'],
         ),
     entry_points={
         'fanstatic.libraries': [
-            'jquery = js.jquery:jquery_lib',
+            'jquery = js.jquery:library',
             ],
         },
     )
