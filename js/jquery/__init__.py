@@ -1,5 +1,5 @@
-from fanstatic import Library, ResourceInclusion
+from fanstatic import Library, Resource
 
 library = Library('jquery', 'resources')
 
-jquery = ResourceInclusion(library, 'jquery.js', minified='jquery.min.js')
+jquery = Resource(library, 'jquery.js', minified='jquery.min.js')
