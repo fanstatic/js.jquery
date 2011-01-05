@@ -1,28 +1,10 @@
 How to use?
 ===========
 
-This should be setup before rendering a page. See `fanstatic`_ for more
-information::
-
-  >>> from fanstatic import init_needed
-  >>> needed = init_needed(base_url='http://localhost')
-
-You can import jQuery from ``js.jquery`` and ``.need`` it where you want
+You can import jQuery from ``js.jquery`` and ``need`` it where you want
 these resources to be included on a page::
 
   >>> from js.jquery import jquery
   >>> jquery.need()
-
-Render the inclusion::
-
-  >>> print needed.render()
-  <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery.js"></script>
-
-Minified:
-
-  >>> needed = init_needed(base_url='http://localhost', mode='minified')
-  >>> jquery.need()
-  >>> print needed.render()
-  <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery.min.js"></script>
 
 .. _`fanstatic`: http://fanstatic.org
