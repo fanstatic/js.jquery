@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-1.4.3 (unreleased)
+1.4.4 (2011-01-06)
 ==================
 
 - Rewrote `hurry.jquery`_ to use `fanstatic`_ instead of `hurry.resource`_.
