@@ -1,10 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-JQUERY_VERSION = '1.4.3'
-version = '1.4.3'
-# Name version after JQUERY_VERSION + .suffix
-
+version = '1.4.4'
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
