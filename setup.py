@@ -3,6 +3,7 @@ import os
 
 version = '1.8.0'
 
+
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
@@ -30,10 +31,10 @@ setup(
     install_requires=[
         'fanstatic',
         'setuptools',
-        ],
+    ],
     entry_points={
         'fanstatic.libraries': [
             'jquery = js.jquery:library',
-            ],
-        },
-    )
+        ],
+    },
+)
