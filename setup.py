@@ -23,6 +23,7 @@ setup(
     keywords='',
     author='Fanstatic Developers',
     author_email='fanstatic@googlegroups.com',
+    url='https://bitbucket.org/fanstatic/js.jquery',
     license='BSD',
     packages=find_packages(),
     namespace_packages=['js'],
