@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-1.9.1 (unreleased)
+1.9.1 (2013-03-03)
 ==================
 
 - Update to jQuery 1.9.1, released 2013-02-04 (`release notes 1.9.1`_).
