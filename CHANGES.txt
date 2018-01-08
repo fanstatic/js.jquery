@@ -1,10 +1,12 @@
 CHANGES
 *******
 
-1.9.2 (unreleased)
+3.2.1 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Update to jQuery 3.2.1, released 2017-03-20 (`release notes 3.2.1`_).
+
+.. _`release notes 3.2.1`: https://blog.jquery.com/2017/03/20/jquery-3-2-1-now-available/
 
 
 1.9.1 (2013-03-03)
