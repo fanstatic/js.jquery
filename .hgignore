@@ -8,3 +8,4 @@ parts
 develop-eggs
 dist
 .mr.developer.cfg
+.DS_Store
