@@ -20,7 +20,7 @@ long_description = "\n\n".join([
 setup(
     name='js.jquery',
     version=version,
-    description="fanstatic jQuery.",
+    description="jQuery packaged for Fanstatic.",
     long_description=long_description,
     classifiers=[
         'Development Status :: 6 - Mature',
