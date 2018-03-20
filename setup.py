@@ -5,14 +5,17 @@ version = '3.2.2.dev0'
 
 
 def read(*rnames):
-    return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+    """Read a file."""
+    with open(os.path.join(os.path.dirname(__file__), *rnames)) as f:
+        return f.read()
 
-long_description = (
-    read('README.txt')
-    + '\n' +
-    read('js', 'jquery', 'test_jquery.txt')
-    + '\n' +
-    read('CHANGES.txt'))
+
+long_description = "\n\n".join([
+    read('README.rst'),
+    read('js', 'jquery', 'test_jquery.rst'),
+    read('CHANGES.rst'),
+])
+
 
 setup(
     name='js.jquery',

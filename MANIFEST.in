@@ -1,4 +1,5 @@
 recursive-include js/jquery/resources *.js
 recursive-include js/jquery/resources *.map
-recursive-include js/jquery *.txt
-include *.txt
+recursive-include js/jquery *.rst
+include *.txt *.rst
+
