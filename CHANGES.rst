@@ -1,10 +1,12 @@
 CHANGES
 *******
 
-3.2.2 (unreleased)
+3.3.1 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Update to jQuery 3.3.1, released 2018-01-20 (`release notes 3.3.1`_).
+
+.. _`release notes 3.3.1`: https://blog.jquery.com/2018/01/20/jquery-3-3-1-fixed-dependencies-in-release-tag/
 
 
 3.2.1 (2018-02-01)
