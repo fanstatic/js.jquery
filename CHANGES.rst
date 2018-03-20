@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-3.3.1 (unreleased)
+3.3.1 (2018-03-20)
 ==================
 
 - Update to jQuery 3.3.1, released 2018-01-20 (`release notes 3.3.1`_).
