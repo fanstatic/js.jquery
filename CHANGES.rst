@@ -1,10 +1,13 @@
 CHANGES
 *******
 
-3.3.1.post1 (unreleased)
+3.6.1 (unreleased)
 ========================
 
-- Nothing changed yet.
+- Update to jQuery 3.6.1, released 2022-08-26 (`release notes 3.6.1`_).
+
+.. _`release notes 3.6.1`: https://blog.jquery.com/2022/08/26/jquery-3-6-1-maintenance-release/
+
 
 
 3.3.1 (2018-03-20)
